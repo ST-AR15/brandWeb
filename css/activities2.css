@@ -1,0 +1,79 @@
+/* 头部 */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* 头部里的菜单 */
+.menu {
+    width: 3.49%;
+    height: 4.35vh;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 1.25vw;
+    border-radius: 13.43%;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* main左边的mainLeft */
+.mainLeft {
+    width: 26.72vw;
+    height: 66.76vh;
+}
+.mainLeftImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5.69%;
+    background-color: #FFFFFF;
+}
+
+/* main右边的mainRight */
+.mainRight {
+    width: 46.25vw;
+    height: 51.39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 上面 */
+.mainRightTitle {
+    width: 100%;
+    height: 12.41vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainRightTltleContain {
+    width: 34.06vw;
+    height: 12.41vh;
+    border-radius: 10000px;
+    background-color: #FFFFFF;
+}
+.mainRightTitleImg {
+    width: 12.41vh;
+    height: 12.41vh;
+    border-radius: 50%;
+    background-color: #E9E9E9;
+}
+/* 下面 */
+.mainRightText {
+    width: 100%;
+    height: 33.89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainRightTextContain {
+    width: 100%;
+    height: 5vh;
+    border-radius: 10000px;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,130 @@
+/* 头部 */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* 头部里的菜单 */
+.menu {
+    width: 3.49%;
+    height: 4.35vh;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 1.25vw;
+    border-radius: 13.43%;
+}
+
+/* 活动们 */
+/* 我去你码的 看错了 把img当成一整坨的高度了-，- */
+.active {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+.active1 {
+    width: 22.76vw;
+    /* height: 38.43vh;  */
+    height: 45.09vh;
+    top: 14.81vh;
+    left: 5.73vw;
+}
+.active2 {
+    width: 13.7vw;
+    /* height: 25.56vh; */
+    height: 30.74vh;
+    top: 58.89vh;
+    left: 29.69vw;
+}
+.active3 {
+    width: 11.51vw;
+    /* height: 19.54vh; */
+    height: 23.98vh;
+    top: 22.31vh;
+    left: 37.66vw;
+}
+.active4 {
+    width: 10.31vw;
+    /* height: 18.7vh; */
+    height: 23.15vh;
+    top: 49.54vh;
+    left: 52.86vw;
+}
+.active5 {
+    width: 16.3vw;
+    /* height: 28.43vh; */
+    height: 34.07vh;
+    top: 17.87vh;
+    left: 67.08vw;
+}
+.active6 {
+    width: 20.05vw;
+    /* height: 31.85vh; */
+    height: 37.50vh;
+    top: 53.98vh;
+    left: 74.17vw;
+}
+
+/* 活动图片们 */
+.activeImg {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.activeImg1 {
+    height: 38.43vh; 
+    border-radius: 15.33%;
+}
+.activeImg2 {
+    height: 25.56vh; 
+    border-radius: 21.74%;
+}
+.activeImg3 {
+    height: 19.54vh; 
+    border-radius: 21.27%;
+}
+.activeImg4 {
+    height: 18.7vh; 
+    border-radius: 23.27%;
+}
+.activeImg5 {
+    height: 28.43vh; 
+    border-radius: 17.25%;
+}
+.activeImg6 {
+    height: 31.85vh; 
+    border-radius: 14.03%;
+}
+
+/* 活动名字们 */
+.activeName {
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+}
+.activeName1 {
+    width: 11.56vw;
+    height: 4.17vh;
+}
+.activeName2 {
+    width: 9.53vw;
+    height: 3.06vh;
+}
+.activeName3 {
+    width: 7.66vw;
+    height: 2.04vh;
+}
+.activeName4 {
+    width: 7.66vw;
+    height: 2.04vh;
+}
+.activeName5 {
+    width: 11.56vw;
+    height: 3.61vh;
+}
+.activeName6 {
+    width: 12.92vw;
+    height: 3.61vh;
+}

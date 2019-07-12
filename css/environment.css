@@ -1,0 +1,73 @@
+/* 头部 */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* 头部里的菜单 */
+.menu {
+    width: 3.49%;
+    height: 4.35vh;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 1.25vw;
+    border-radius: 13.43%;
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* main上面的的mainTitle */
+.mainTitle {
+    width: 100%;
+    height: 13.06vh;
+}
+.mainTitleContain {
+    width: 33.33vw;
+    height: 100%;
+    border-radius: 3.91%;
+    position: relative;
+    left: 8.7vw;
+    background-color: #E9E9E9;
+}
+
+/* main下面的mainContainer */
+.mainContainer {
+    width: 100%;
+    height: 56.76vh;
+    position: relative;
+    top: 5.65%;
+    display: flex;
+    justify-content: center;
+}
+.mainContain {
+    width: 39.9vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.mainContainImg {
+    width: 26.72vw;
+    height: 100%;
+    border-radius: 7.34%;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+}
+.mainContainText {
+    width: 26.51vw;
+    height: 37.59vh;
+    border-radius: 10.41%;
+    position: relative;
+    left: -13.33vw;
+    flex-shrink: 0;
+    background-color: #E9E9E9;
+}
+.mainContain:nth-child(2) {
+    margin-left: 2.86vw;
+}

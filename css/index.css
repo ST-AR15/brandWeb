@@ -1,0 +1,137 @@
+/* 头部 */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 头部里面的个人 */
+.personal {
+
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+/* 头部里面的个人里面的头像 */
+.avatar {
+    width: 6.11vh;
+    height: 6.11vh;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+/* 头部里面的个人里面的用户名 */
+.userName {
+    width: 5.52vw;
+    height: 2.22vh;
+    border-radius: 10000px;
+    position: relative;
+    top: 13.955%;
+    left: 0.42vw;
+    background-color: #FFFFFF;
+}
+
+/* 头部里面的列表 */
+.listContainer {
+    /* xd里面，两个li之间间隔23px */
+    width: 29.79%;
+    height: 52.33%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.listContainer > ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.list {
+    width: 6.25vw;
+    height: 100%;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+}
+
+/* main */
+main {
+    display: flex;
+    align-items: center;
+}
+
+/* main里面的mainContainer */
+.mainContainer {
+    /* xd里的高度为623+50-345=328 */
+    width: 100%;
+    height: 30.37vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main里面的标题部分 */
+.mainTitle {
+    width: 65.73%;
+    height: 15vh;
+    background-color: #E9E9E9;
+    border-radius: 10000px;
+}
+
+/* main里面的mainContain */
+.mainContain {
+    width: 65.73%;
+    height: 12.31vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainText {
+    height: 4.63vh;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+}
+.longText {
+    width: 39.62%;
+}
+.shortText {
+    width: 80.27%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer里的container */
+.footerContainer {
+    /* 想了想，其实这个貌似有点多余-，- */
+    /* 但是这样也许后期维护会很好呢！嗯！（理直气壮） */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer里的container里的footerLogo */
+.footerLogo {
+    width: 7.81vh;
+    height: 7.81vh;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+/* footer里的container里的footerText */
+.footerText {
+    width: 8.96vw;
+    height: 3.24vh;
+    border-radius: 10000px;
+    position: relative;
+    left: 0.89vw;
+    background-color: #FFFFFF;
+}

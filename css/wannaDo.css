@@ -1,0 +1,76 @@
+/* 头部 */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* 头部里的菜单 */
+.menu {
+    width: 3.49%;
+    height: 4.35vh;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 1.25vw;
+    border-radius: 13.43%;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main里面的mainContainer */
+.mainContainer {
+    width: 88.44%;
+    height: 56.45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContain {
+    width: 17.03vw;
+    height: 100%;
+}
+.mainContain:nth-child(odd) {
+    transform: translateY(-1.82vw);
+    animation-name: goUp;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+    background-color: #E9E9E9;
+}
+.mainContain:nth-child(even) {
+    transform: translateY(1.82vw);
+    animation-name: goDown;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+    background-color: #FFFFFF;
+}
+
+/* 向上移动1.82vw到齐平的动画 */
+@keyframes goUp {
+    from {
+        transform: translateY(1.82vw);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+/* 向下移动1.82vw到齐平的动画 */
+@keyframes goDown {
+    from {
+        transform: translateY(-1.82vw);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
