@@ -120,6 +120,10 @@ main里有左右两边，所以尚且先这样分：左边的类名class为mainL
 
 main里面的东西分为两块，一块为上面的那个标题，另一块是下面的内容。所以上下分两个div，上面的类名class为mainTitle，下面的类名class为mainContainer
 
+### mainTitle
+
+里面只有一个灰色区域，它的类名class为mainTitleContain。
+
 ### mainContainer
 
 mainContainer里面的两个部件类名class都为mainContain
